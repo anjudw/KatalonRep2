@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save</name>
+   <tag></tag>
+   <elementGuidId>f00d671b-c2b5-4847-b21a-727be9658fa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#sveoffdr > #sveoffdr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='sveoffdr']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>214d8fc8-dae1-4545-aedc-5d2c42bd54c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-raised-button mat-button-base primary-blue-btn mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>6e3febaf-8f21-4678-8e4a-1b798cc93e8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>sveoffdr</value>
+      <webElementGuid>37dba1aa-356c-41ee-823c-799d4b9920b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save </value>
+      <webElementGuid>e761b0a6-3a5f-450e-9497-0af67365eb01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-accordion-child-2&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c182-33&quot;]/form[@class=&quot;ng-tns-c182-33 ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;btn-mt9&quot;]/s4-button[@id=&quot;sveoffdr&quot;]/button[@id=&quot;sveoffdr&quot;]</value>
+      <webElementGuid>caafba08-3b2b-4af2-a8d5-af6b9286600a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='sveoffdr']</value>
+      <webElementGuid>4b212c45-3c4b-419d-9ece-599fd0201ceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//s4-button[@id='sveoffdr']/button</value>
+      <webElementGuid>cf4ac1d5-3d5b-4cc7-b392-013767cf7224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID#'])[1]/following::button[1]</value>
+      <webElementGuid>7a01b4a9-1fe1-49d5-9d30-e1a6c62e077e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::button[1]</value>
+      <webElementGuid>7dfc3cd6-949c-4abb-a3f2-ab4b5b9c0b20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exit'])[1]/preceding::button[1]</value>
+      <webElementGuid>57ece439-f317-4996-a212-aba6d66ba9eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//s4-button/button</value>
+      <webElementGuid>4420a582-eab8-44ab-939e-0e0070d36e98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'sveoffdr' and (text() = 'Save ' or . = 'Save ')]</value>
+      <webElementGuid>3cefea15-551e-46d9-b75f-c3c20a93d51c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

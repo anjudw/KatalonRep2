@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Name</name>
+   <tag></tag>
+   <elementGuidId>c09c082b-952b-4c40-9edd-e11f743be4ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-nav-list.mat-nav-list.mat-list-base.redirectLinkLevel.ng-star-inserted > a.mat-list-item.mat-focus-indicator.mat-list-item-avatar.mat-list-item-with-avatar > span.mat-list-item-content > span.mat-list-text > span.mat-line.dynamic-menu-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='s4MainBody']/app-root/app-home/mat-sidenav-container/mat-sidenav/div/div/perfect-scrollbar/div/div/dynamic-menu/div/ul/li/ul/li/ul/li/ul/li/mat-nav-list/a/span/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e3c8f677-1313-4800-87b2-efd43180ae00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-line dynamic-menu-text</value>
+      <webElementGuid>f55e371f-a72b-40fc-b51f-6d32df4f21ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name</value>
+      <webElementGuid>1855af81-636b-46c5-bf24-606546b087dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;s4MainBody&quot;)/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container s4-sidenav-container main-menu-open mat-drawer-transition&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav ng-tns-c226-5 ng-trigger ng-trigger-transform mat-drawer-side ng-star-inserted mat-drawer-opened&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c226-5&quot;]/div[@class=&quot;content-container ng-tns-c226-5&quot;]/perfect-scrollbar[1]/div[@class=&quot;ps ps--active-y&quot;]/div[@class=&quot;ps-content&quot;]/dynamic-menu[1]/div[@class=&quot;dynamic-menu&quot;]/ul[@class=&quot;level0 level&quot;]/li[@class=&quot;menu-first-li ng-star-inserted active-link&quot;]/ul[@class=&quot;level1 level ng-star-inserted&quot;]/li[@class=&quot;menu-second-li ng-star-inserted&quot;]/ul[@class=&quot;level2 level ng-star-inserted&quot;]/li[@class=&quot;menu-third-li ng-star-inserted&quot;]/ul[@class=&quot;level3 level ng-star-inserted&quot;]/li[@class=&quot;menu-fourth-li ng-star-inserted&quot;]/mat-nav-list[@class=&quot;mat-nav-list mat-list-base redirectLinkLevel ng-star-inserted&quot;]/a[@class=&quot;mat-list-item mat-focus-indicator mat-list-item-avatar mat-list-item-with-avatar&quot;]/span[@class=&quot;mat-list-item-content&quot;]/span[@class=&quot;mat-list-text&quot;]/span[@class=&quot;mat-line dynamic-menu-text&quot;]</value>
+      <webElementGuid>e5f7ba4c-9f18-4260-bd7f-477d7612b2ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='s4MainBody']/app-root/app-home/mat-sidenav-container/mat-sidenav/div/div/perfect-scrollbar/div/div/dynamic-menu/div/ul/li/ul/li/ul/li/ul/li/mat-nav-list/a/span/span[2]/span</value>
+      <webElementGuid>f16a1214-5e23-43c8-9a5d-7ab8eaf9b9d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Search'])[1]/following::span[4]</value>
+      <webElementGuid>29a394f9-dda2-4f25-b517-22749e8d7fac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inmate Case Management'])[1]/following::span[8]</value>
+      <webElementGuid>54659dc7-b470-43ea-9c8f-771f8352d7cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Caseload'])[1]/preceding::span[2]</value>
+      <webElementGuid>1f568e01-165b-4bf7-97ac-017e226e1317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Historical'])[1]/preceding::span[6]</value>
+      <webElementGuid>2d613ee2-ca22-453b-b9e4-2e624ae3954a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Name']/parent::*</value>
+      <webElementGuid>e6e7676a-bd78-47d4-95eb-03f436b2a297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li/ul/li/ul/li/mat-nav-list/a/span/span[2]/span</value>
+      <webElementGuid>2e6e1c98-3aa5-4ae8-bf0f-3aaf625612ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Name' or . = 'Name')]</value>
+      <webElementGuid>4d7ad918-83f0-4650-80c6-feab6d0e406b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

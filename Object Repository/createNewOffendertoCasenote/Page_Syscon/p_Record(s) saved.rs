@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Record(s) saved</name>
+   <tag></tag>
+   <elementGuidId>f0d20583-fdc4-417a-b568-22e6e55084df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-12']/snack-bar-container/div/div/div/div[2]/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1f407262-33f7-49ec-a145-560e8f486fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Record(s) saved</value>
+      <webElementGuid>9f03be99-db2b-4edd-a570-a623680ebb00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-12&quot;)/snack-bar-container[@class=&quot;mat-snack-bar-container ng-tns-c79-129 ng-trigger ng-trigger-state message-class-success mat-snack-bar-top ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c79-129&quot;]/div[@class=&quot;ng-tns-c79-129&quot;]/div[@class=&quot;toastContainer ng-star-inserted&quot;]/div[2]/div[1]/div[2]/p[1]</value>
+      <webElementGuid>7d3268ee-cc56-4f59-b891-892051d82030</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-12']/snack-bar-container/div/div/div/div[2]/div/div[2]/p</value>
+      <webElementGuid>59b1b2d3-d50f-4058-b554-ae30b122f26d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Success!'])[1]/following::p[1]</value>
+      <webElementGuid>e14dcd07-c9e3-410a-a97b-982bbd15b684</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document'])[1]/following::p[1]</value>
+      <webElementGuid>6e855e46-7373-48f3-85b9-3532f4dfd4f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Record(s) saved']/parent::*</value>
+      <webElementGuid>fd05695c-2462-4f5e-85dc-f3af9db8f036</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>2d299a60-fd3c-431b-8646-09097744085a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Record(s) saved' or . = 'Record(s) saved')]</value>
+      <webElementGuid>e7635943-dfa4-4b63-ba91-d2603ddc5a19</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

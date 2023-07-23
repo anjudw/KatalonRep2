@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-panel-title_Case Notes</name>
+   <tag></tag>
+   <elementGuidId>0298be65-a7e0-432e-8b20-f31d287aabfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-panel-title.mat-expansion-panel-header-title.ng-tns-c183-122</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-8']/span/mat-panel-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-panel-title</value>
+      <webElementGuid>d0a9e774-2129-4be4-9182-faa239064995</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-expansion-panel-header-title ng-tns-c183-122</value>
+      <webElementGuid>9349c725-dbcd-434e-b119-58642d74b997</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Case Notes</value>
+      <webElementGuid>1bcb4c34-4c9c-4760-87ba-22f2aff324df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-8&quot;)/span[@class=&quot;mat-content ng-tns-c183-122&quot;]/mat-panel-title[@class=&quot;mat-expansion-panel-header-title ng-tns-c183-122&quot;]</value>
+      <webElementGuid>6ad7e9fd-a3dd-4978-b746-3b183253771a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-expansion-panel-header[@id='mat-expansion-panel-header-8']/span/mat-panel-title</value>
+      <webElementGuid>42fc74f0-f743-4602-9d35-ae6c2d6daa0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Institution Contact Logs'])[1]/following::mat-panel-title[1]</value>
+      <webElementGuid>90ce1fc5-67d1-454e-b6ca-cd3fccb92573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/preceding::mat-panel-title[1]</value>
+      <webElementGuid>41a7c55d-ff69-4e5d-a3de-23c719bb4279</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-panel-title</value>
+      <webElementGuid>e9c13987-1ab1-4252-bdcc-a860216d180c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-panel-title[(text() = 'Case Notes' or . = 'Case Notes')]</value>
+      <webElementGuid>9b581394-511d-4aef-926f-3b7afa201710</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
