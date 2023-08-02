@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_lngpwdfld</name>
+   <name>input_Password</name>
    <tag></tag>
    <elementGuidId>6ac58955-276c-44de-b46c-66114bcf04ed</elementGuidId>
    <selectorCollection>
@@ -10,11 +10,15 @@
          <value>div.mat-form-field-infix.ng-tns-c87-3 > #lngpwdfld</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'password' and @id = 'lngpwdfld']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='lngpwdfld']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>495172d0-5e46-4f8d-8d0e-9a4715f07c57</webElementGuid>
+      <webElementGuid>bb55f2cc-ce48-42fc-9ee2-356b708d8df4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>725a863e-0ba5-4f57-8044-434d3cc17d51</webElementGuid>
+      <webElementGuid>6baeb092-cb55-4806-818c-1304d1cd4508</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>ef8b1274-21b9-452d-a2a9-20811bfd0a3d</webElementGuid>
+      <webElementGuid>ff174917-e467-4839-b620-7200586d0f18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c87-3 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored</value>
-      <webElementGuid>9f994adf-d14d-447e-9c9e-707bcd08a0d4</webElementGuid>
+      <webElementGuid>48cd5231-a2d0-44bf-9ef3-b99b8f5a7775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>id</name>
       <type>Main</type>
       <value>lngpwdfld</value>
-      <webElementGuid>bffbc53c-e9d2-4011-a266-9e99965aa45c</webElementGuid>
+      <webElementGuid>19152d25-4faf-4f88-9ba9-f6f9c6560ad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>6fcc7913-b701-462d-af9a-1849dfdb04e6</webElementGuid>
+      <webElementGuid>b118ed65-3035-4160-b48d-7dd582a8e3e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;s4MainBody&quot;)/app-root[1]/app-login[1]/div[@class=&quot;s4-login-page mat-body-1&quot;]/div[@class=&quot;lgnbody&quot;]/div[@class=&quot;lgnbody-inner&quot;]/div[@class=&quot;logindiv&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[2]/div[1]/div[1]/s4-password[@id=&quot;lngpwdfld&quot;]/mat-form-field[@class=&quot;mat-form-field component-full-width ng-tns-c89-1 ng-tns-c87-3 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c87-3&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c87-3&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c87-3&quot;]/input[@id=&quot;lngpwdfld&quot;]</value>
-      <webElementGuid>85279743-4c36-4abb-94ac-6ec020f6b294</webElementGuid>
+      <webElementGuid>f8159a7f-b25c-4a38-8c98-3eb7ba884e78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='lngpwdfld']</value>
-      <webElementGuid>0f79f80b-64fd-4567-920e-c40b61c0a185</webElementGuid>
+      <webElementGuid>78f3f570-96c1-47f7-bdfa-94821b54b0e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//s4-password[@id='lngpwdfld']/mat-form-field/div/div/div/input</value>
-      <webElementGuid>e36db3e5-4c80-4d99-ab6e-564fc8c0dfa6</webElementGuid>
+      <webElementGuid>bea0c1c4-68a5-4f02-93ab-c9475fe9a7fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//s4-password/mat-form-field/div/div/div/input</value>
-      <webElementGuid>55bde9fb-80b9-4a49-9fb9-ae036a16aa54</webElementGuid>
+      <webElementGuid>a57fc9bd-70af-4c00-b8e4-b1c7628a8900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'lngpwdfld']</value>
-      <webElementGuid>4b6975bc-0859-4e9b-8fde-e864998c0488</webElementGuid>
+      <webElementGuid>9f70ae77-03e8-4273-a24e-75525f581204</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
