@@ -28,15 +28,15 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name'), GlobalVariable.Username)
 
 //WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), 'iEvABqM0Kgo=')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), GlobalVariable.Password)
 
-WebUI.setText(  findTestObject('Object Repository/Login/Page_Syscon/input_Password')  , GlobalVariable.Password)
 WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/span_Sign In'))
 
 WebUI.delay(2)
 
 WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\LoginSuccessfully.png')
 
-WebUI.comment('User login successfully')
+WebUI.comment('User login successfully!')
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Syscon/mat-icon_logout'), 3, FailureHandling.STOP_ON_FAILURE)
 
