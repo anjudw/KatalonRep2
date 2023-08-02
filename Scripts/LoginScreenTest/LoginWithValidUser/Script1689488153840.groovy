@@ -16,21 +16,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LoginUrl)
 
+WebUI.maximizeWindow()
+
 //LoginWithValid Credentials
-WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name is required_lngtxtfld'), 'ANJU')
+//WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name'), 'anju')
+WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name'), user)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password_lngpwdfld'), 'iEvABqM0Kgo=')
+//WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), 'iEvABqM0Kgo=')
 
+WebUI.setText(  findTestObject('Object Repository/Login/Page_Syscon/input_Password')  , password)
 WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/span_Sign In'))
-WebUI.delay(2)
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\LoginSuccessfully.png')
 
-WebUI.comment('User login successgully')
+WebUI.delay(2)
+
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\LoginSuccessfully.png')
+
+WebUI.comment('User login successfully')
 
 landingPage = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Syscon/mat-icon_logout'), 3, FailureHandling.STOP_ON_FAILURE)
-
 

@@ -38,43 +38,46 @@ WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Release Plan
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/PlanStatus_LOV'))
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/ReleasePlan_Grid_SaveButton'))
-//takescreenshot
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\ReleasePlanCreated.png')
 
-SavedSuccessfully = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
+//takescreenshot
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\ReleasePlanCreated.png')
+
+SavedSuccessfully = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 
+    2, FailureHandling.STOP_ON_FAILURE)
 
 //scroll to plan details tab>>>>>>>>>
-WebUI.scrollToElement( findTestObject('Object Repository/CasePlan_create/Release Plan/PlanDetails_tab') , 0)
+WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/Release Plan/PlanDetails_tab'), 0)
 
 //scroll to conditions button and click>>>>>>>>
-WebUI.scrollToElement( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_button') , 0)
+WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_button'), 0)
 
-WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_button') )
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_button'))
 
-ConditionsPopUpWindow = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Release Plan/ConditionsPopup window')  , 3, FailureHandling.STOP_ON_FAILURE)
+ConditionsPopUpWindow = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Release Plan/ConditionsPopup window'), 
+    3, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.comment('User navigated to Conditions popup window successfully')
 
 //add condition from conditions popup>>>>>>>>>
-WebUI.click( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_type_Add button'))
-WebUI.doubleClick( findTestObject('Object Repository/CasePlan_create/Release Plan/Condition_CategoryField') )
-WebUI.click( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_Category_LOV') )
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_type_Add button'))
 
-WebUI.click( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_conditions_Add button')  )
-WebUI.doubleClick( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_ConditionsField'))
-WebUI.click( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_conditionsField_LOV'))
+WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Release Plan/Condition_CategoryField'))
+
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_Category_LOV'))
+
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_conditions_Add button'))
+
+WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_ConditionsField'))
+
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_conditionsField_LOV'))
 
 //WebUI.doubleClick(  findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_LengthField') )
 //WebUI.setText(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_LengthField_Editmode') , '5')
-
 //WebUI.doubleClick( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_UnitField'))
 //WebUI.click(  findTestObject('Object Repository/CasePlan_create/Release Plan/Condition_UnitField_LOV'))
-
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_SaveButton'))
 
-WebUI.click( findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_BackButton'))
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Release Plan/Conditions_BackButton'))
 
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\ReleasePlanConditionSaved.png')
-
-
-
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\ReleasePlanConditionSaved.png')
 

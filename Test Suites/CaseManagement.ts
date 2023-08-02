@@ -16,21 +16,96 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LoginScreenTest/LoginWithInvalidUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e3781701-bc4a-437a-8edf-55327ec00fb9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginCredential</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e3781701-bc4a-437a-8edf-55327ec00fb9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>InvalidUser</value>
+         <variableId>fb9a3c83-32cb-47f7-b8c1-e9988c05ccee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3781701-bc4a-437a-8edf-55327ec00fb9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>b25be04c-749c-466e-b9e9-a303b5579d15</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4f51c4e6-8ee4-482e-babc-4304092a4cf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LoginScreenTest/LoginWithValidUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b84b458b-0867-4374-b0c5-69bab90890f9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginCredential</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b84b458b-0867-4374-b0c5-69bab90890f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>7d60ad8d-d98d-4ac5-82b7-94ad2088402e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b84b458b-0867-4374-b0c5-69bab90890f9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>1b9975b6-a4b9-45af-80dd-30aefe82d57c</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>fbb7ef93-4586-43ad-bd27-530b921845a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/NewOffender/CreationAndAdmission_NewOffender</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>861c9f17-326e-4004-a21e-f5ba187b88c8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NewOffender_Testdata</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>861c9f17-326e-4004-a21e-f5ba187b88c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>ff991d54-12df-4a14-b686-115ee9ee9834</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>861c9f17-326e-4004-a21e-f5ba187b88c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>56bb0550-c933-4999-ac31-0630a5722eab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>861c9f17-326e-4004-a21e-f5ba187b88c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DOB</value>
+         <variableId>4dbc4f86-d081-440c-8a9a-c3ca1539dcb4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>861c9f17-326e-4004-a21e-f5ba187b88c8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Sex</value>
+         <variableId>d1097c6d-dfc5-484b-94ee-ef5096203e0b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>44de1ca8-85ed-4046-b4f0-e1076115c0f1</guid>

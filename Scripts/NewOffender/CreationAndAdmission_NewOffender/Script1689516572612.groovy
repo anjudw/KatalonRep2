@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LoginScreenTest/LoginWithValidUser'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('LoginScreenTest/LoginWithValidUser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('LoginScreenTest/LoginUsingGlobalVariable'), [:], FailureHandling.STOP_ON_FAILURE)
+
+//WebUI.acceptAlert()
 
 WebUI.maximizeWindow()
 
@@ -34,16 +38,17 @@ WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/NameMenu' //na
 
 WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/LastNameField'))
 
-WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/LastNameField'), 'Oppal')
+WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/LastNameField'), lastname)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/SexField'))
+WebUI.doubleClick(findTestObject('Object Repository/CreateNewOffenderOR/SexField'))
 
-WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/SexField_LOV'))
+//WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/SexField_LOV'))
+WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/SexField'), sex)
 
 //Enter DOB
-WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/DOB_Field'), '11/11/1991')
+WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/DOB_Field'), dateofbirth)
 
 //Set DOB by calender
 //WebUI.click(  findTestObject('Object Repository/CreateNewOffenderOR/DOB_dateIcon'))
@@ -61,7 +66,7 @@ CreateNewOffender = WebUI.verifyElementPresent(findTestObject('Object Repository
 
 WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/FirstNameField'))
 
-WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/FirstNameField'), 'joe')
+WebUI.setText(findTestObject('Object Repository/CreateNewOffenderOR/FirstNameField'), firstname)
 
 WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/Save_button'))
 
@@ -81,5 +86,5 @@ WebUI.click(findTestObject('Object Repository/CreateNewOffenderOR/AdmissionSaveB
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/ToastMessage/SuccessMessage'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\AdmissionSuccess.png')
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\AdmissionSuccess.png')
 

@@ -18,8 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('LogintoCaseNote/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Test Cases/LoginScreenTest/LoginWithValidUser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/LoginScreenTest/LoginWithValidUser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('LoginScreenTest/LoginUsingGlobalVariable'), [:], FailureHandling.STOP_ON_FAILURE)
+
+//WebUI.acceptAlert()
 
 WebUI.maximizeWindow()
 
@@ -36,3 +39,4 @@ WebUI.click(findTestObject('Object Repository/RecentOffenderAndCaseNoteNavigatio
 WebUI.click(findTestObject('Object Repository/RecentOffenderAndCaseNoteNavigation/Page_Syscon/MenuCase Managementkeyboard_arrow_down'))
 
 WebUI.click(findTestObject('Object Repository/RecentOffenderAndCaseNoteNavigation/Page_Syscon/MenuCase Notes'))
+

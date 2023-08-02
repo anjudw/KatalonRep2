@@ -24,9 +24,9 @@ WebUI.navigateToUrl(GlobalVariable.LoginUrl)
 WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/div_Elite 5.0PM_app-loading'))
 
 //LoginwithInvalid Credentials
-WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name is required_lngtxtfld'), GlobalVariable.InvalidUsername)
+WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name'), GlobalVariable.InvalidUsername)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password_lngpwdfld'), 'vOA0cDqQbrFbbUuaXmRXSw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), 'vOA0cDqQbrFbbUuaXmRXSw==')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/span_Sign In'))
 
@@ -35,9 +35,9 @@ LoginError = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/
 WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\LoginError.png')
 
 //LoginWithValid Credentials
-WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name is required_lngtxtfld'), GlobalVariable.Username)
+WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password_lngpwdfld'), 'iEvABqM0Kgo=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), 'iEvABqM0Kgo=')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/span_Sign In'))
 

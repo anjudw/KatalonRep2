@@ -48,8 +48,9 @@ WebUI.click(findTestObject('Object Repository/CasePlan_create/Page_Syscon/Primar
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Page_Syscon/Assign_button'))
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Page_Syscon/Save_button_Caseplan'))
-Saved = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
 
+Saved = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 2, 
+    FailureHandling.STOP_ON_FAILURE)
 
 //Scroll to Tab header')
 WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/TabHeader_CasePlan'), 1)
@@ -72,8 +73,8 @@ WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Criminogenic
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/Save button_criminogenicGrid'))
 
-WarningForMandatoryField = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/CriminogenicTab/WarningToast')  , 2, FailureHandling.STOP_ON_FAILURE)
-
+WarningForMandatoryField = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/WarningToast'), 
+    2, FailureHandling.STOP_ON_FAILURE)
 
 //Record will not save without 'status'
 //To remove the focus from status field, click Objective Field
@@ -85,12 +86,14 @@ WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Criminogenic
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/StatusField_LOV'))
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/Save button_criminogenicGrid'))
-Saved = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
 
+Saved = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 2, 
+    FailureHandling.STOP_ON_FAILURE)
 
 println('Criminogenic details saved successfully')
 
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\criminogenicScreenshot.png')
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\criminogenicScreenshot.png')
+
 //Scroll to 'Plan of action' grid
 WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_criminogenic'), 1)
 
@@ -110,8 +113,9 @@ WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Criminogenic
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_Program_LOV'))
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_SaveButton'))
-Saved = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
 
+Saved = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 2, 
+    FailureHandling.STOP_ON_FAILURE)
 
 //Try to delete plan of action
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_DeleteButton'))
@@ -123,7 +127,9 @@ WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/Pl
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_DeleteButton'))
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_SaveButton'))
-Saved = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
+
+Saved = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 2, 
+    FailureHandling.STOP_ON_FAILURE)
 
 //Add new plan of action>>>>>>
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_AddButton'))
@@ -142,11 +148,13 @@ WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/Pl
 
 //WebUI.selectOptionByLabel( findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_Program_LOV_V2'), '2222', false)
 WebUI.click(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/PlanOfAction_SaveButton'))
-Saved = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
 
+Saved = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 2, 
+    FailureHandling.STOP_ON_FAILURE)
 
 //Move to another tab- Conditions tab
 WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/CriminogenicTab/TabHeader_CasePlan'), 1)
+
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/ConditionsTab Header'))
 
 //-------------------------------------------------------------
@@ -164,23 +172,24 @@ WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/Con
 WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/Conditions Tab/Conditions_POA_Grid'), 0)
 
 //navigate to releaseplan screen
-
-
 WebUI.callTestCase(findTestCase('LogintoCaseNote/Release Plan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Navigateback to CasePlan screen>>>>
 WebUI.navigateToUrl(GlobalVariable.Caseplan_Inst_URL)
+
 WebUI.delay(2)
 
 //Go to Conditions tab and varify that the condition is present
 //WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/Page_Syscon/Save_button_Caseplan'), 1)
-WebUI.click(  findTestObject('Object Repository/CasePlan_create/Conditions Tab/ConditionsTab Header') )
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/ConditionsTab Header'))
 
 //scroll to 'Plan of action'
-WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/Conditions Tab/PlanOfActionGrid') , 0)
+WebUI.scrollToElement(findTestObject('Object Repository/CasePlan_create/Conditions Tab/PlanOfActionGrid'), 0)
 
 //verify that condition is added and available on condition tab
-Condition_added = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_AddButton'), 3, FailureHandling.STOP_ON_FAILURE)
+Condition_added = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_AddButton'), 
+    3, FailureHandling.STOP_ON_FAILURE)
+
 //Click on add button of plan of actrion grid
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_AddButton'))
 
@@ -188,14 +197,15 @@ WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA
 WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_CaseworkField'))
 
 WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_CaseworkField_LOV'))
+
 //WebUI.doubleClick(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_CategoryField'))
 //WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_CategoryField_LOV'))
-WebUI.click( findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_SaveButton'))
+WebUI.click(findTestObject('Object Repository/CasePlan_create/Conditions Tab/POA_SaveButton'))
 
-SavedSuccessfully = WebUI.verifyElementPresent( findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage')  , 2, FailureHandling.STOP_ON_FAILURE)
+SavedSuccessfully = WebUI.verifyElementPresent(findTestObject('Object Repository/CasePlan_create/Conditions Tab/SuccessMessage'), 
+    2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\CasePlanCondition.png')
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\CasePlanCondition.png')
 
-
-
+WebUI.closeBrowser()
 

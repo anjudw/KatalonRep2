@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//mat-option[@role='option' and @id='mat-option-130' ]</value>
+         <value>//li/span[contains(text(), &quot;Primary Case Officer&quot;)]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-option[@role='option' and @id='mat-option-130' ]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0c82db92-c99c-4086-94aa-88cdb5e839b7</webElementGuid>
+      <webElementGuid>6b2bc9ef-ef03-4a84-8622-62a9174a8f83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-star-inserted</value>
-      <webElementGuid>e504adcf-ff82-4978-a31d-c5b418a4a263</webElementGuid>
+      <webElementGuid>56e6929e-1447-433c-bbe4-3253ac951ed1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Primary Case Officer</value>
-      <webElementGuid>c4eaebe7-0aff-417f-a3c5-5fb3229f0efa</webElementGuid>
+      <webElementGuid>4ed40cd2-92d8-4c79-a999-c73a23381c7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//mat-option[@role='option' and @id='mat-option-130' ]</value>
-      <webElementGuid>804ccfe6-4b65-4a10-8b19-dd3d38661fe3</webElementGuid>
+      <value>//li/span[contains(text(), &quot;Primary Case Officer&quot;)]</value>
+      <webElementGuid>c16b1002-7056-456d-9dc9-93ee858d872d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-156']/span/li/span</value>
-      <webElementGuid>6f54dd3c-f59b-4f00-9bd1-7e80ea39ceb3</webElementGuid>
+      <webElementGuid>93a5d408-0e39-4e8b-9930-b02630d3aea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Code'])[1]/following::span[2]</value>
-      <webElementGuid>017e2787-fda1-4e74-b3f4-25f297e77e4c</webElementGuid>
+      <webElementGuid>f41f5ba5-3817-4958-94df-cf394fb11c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::span[3]</value>
-      <webElementGuid>4eebbbc5-75e2-4aa2-9dcf-1117cb135ec8</webElementGuid>
+      <webElementGuid>e14717e7-9fbb-40a9-9ec8-8b05a6147c23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CPLAN_PCO'])[1]/preceding::span[1]</value>
-      <webElementGuid>d87e04c4-4627-4d42-bd74-287fb36c0d28</webElementGuid>
+      <webElementGuid>35227a3e-85ed-4fb6-9b1d-7558781086c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Secondary Case Officer'])[1]/preceding::span[2]</value>
-      <webElementGuid>c7c27d7a-d74e-4d5d-a195-921a382bd397</webElementGuid>
+      <webElementGuid>9dc16cc0-6168-45e2-a7e7-68b7ac6536aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Primary Case Officer']/parent::*</value>
-      <webElementGuid>8b16ae6c-8651-434e-bc94-1dd8955211a8</webElementGuid>
+      <webElementGuid>eb0e6b60-7449-49c4-9fef-9618a3509b44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[2]/span/li/span</value>
-      <webElementGuid>3eaf375c-57dc-47cc-b4de-199c92d35cca</webElementGuid>
+      <webElementGuid>8872d38e-d528-4761-b2e5-97a4aa12c01f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Primary Case Officer' or . = 'Primary Case Officer')]</value>
-      <webElementGuid>e0cfd27b-df2a-4c90-9854-bd088745f19e</webElementGuid>
+      <webElementGuid>f1b44a71-13f5-4d51-8a5c-34fb14794876</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

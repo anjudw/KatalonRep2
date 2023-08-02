@@ -36,25 +36,32 @@ WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page
 WebUI.enableSmartWait()
 
 WebUI.doubleClick(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/CaseNoteSubType'))
+
 WebUI.click(findTestObject('Object Repository/createNewOffendertoCasenote/Page_Syscon/span_Sub Casenote 01'))
 
 WebUI.setText(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/casenote_text'), 'CaseNote added by automation')
 
 WebUI.scrollToElement(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Save button'), 0)
+
 WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Save button'))
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\CaseNoteCreated.png')
 
-WebUI.scrollToElement(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/AmendCaseNote_Button'), 0)
-WebUI.click( findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/AmendCaseNote_Button'))
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\CaseNoteCreated.png')
 
-WebUI.setText( findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/AmendCaseNote_text'), 'CaseNote text amended by automation')
+WebUI.scrollToElement(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/AmendCaseNote_Button'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/AmendCaseNote_Button'))
+
+WebUI.setText(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/AmendCaseNote_text'), 
+    'CaseNote text amended by automation')
+
 WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/Checkbox_Attempt Contact'))
 
-WebUI.click( findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/ANT Result checkbox'))
-WebUI.click( findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/Case Review checkbox'))
+WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/ANT Result checkbox'))
+
+WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/Case Review checkbox'))
 
 WebUI.click(findTestObject('Object Repository/CreateNewCaseNoteVerification/Page_Syscon/Page_Syscon/SaveButton_Amend'))
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\CaseNoteAmended.png')
 
-//WebUI.closeBrowser()
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\CaseNoteAmended.png')
 

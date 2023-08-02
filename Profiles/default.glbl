@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dev.elitev5.com/#'</initValue>
+      <initValue>'https://dev.elitev5.com/#/login'</initValue>
       <name>LoginUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -17,22 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Open the browser\r\n'
 WebUI.openBrowser('')
 
+'Hit the valid URL'
 WebUI.navigateToUrl(GlobalVariable.LoginUrl)
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/div_Elite 5.0PM_app-loading'))
+'Maximize the Window'
+WebUI.maximizeWindow()
 
+//WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/div_Elite 5.0PM_app-loading'))
 //LoginwithInvalid Credentials
-WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name is required_lngtxtfld'), 'ANJ')
+'Enter Username with invalid data'
+WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_User Name'), user)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password_lngpwdfld'), 'iEvABqM0Kgo=')
+//WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), 'iEvABqM0Kgo=')
+'Enter Password'
+WebUI.setText(findTestObject('Object Repository/Login/Page_Syscon/input_Password'), password)
 
+'Click on \'Sign In\' button'
 WebUI.click(findTestObject('Object Repository/Login/Page_Syscon/span_Sign In'))
 
+'Verify the validation message appears'
 LoginError = WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Page_Syscon/LoginError_wrongPWD'), 2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot('D:\\Katalon_testRun_Screenshot\\LatestRun\\LoginError.png')
+'Take Screenshot'
+WebUI.takeScreenshot('D:\\Katalon_files\\Katalon_testRun_Screenshot\\LatestRun\\LoginError.png')
 
 WebUI.closeBrowser()
 
